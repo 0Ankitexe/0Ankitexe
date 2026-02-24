@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <style>
+    .ascii {
+      font-family: "Fira Code", "Courier New", monospace;
+      font-size: 18px;
+      font-weight: bold;
+      fill: #00F0FF;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      fill: #a9b1d6;
+      font-weight: 500;
+    }
+    .glow {
+      animation: pulsate 2.5s infinite alternate ease-in-out;
+    }
+    @keyframes pulsate {
+      0% { text-shadow: 0 0 2px #00F0FF, 0 0 4px #00F0FF; opacity: 0.9; }
+      100% { text-shadow: 0 0 8px #00F0FF, 0 0 16px #00F0FF; opacity: 1; }
+    }
+  </style>
+  
+  <g class="glow" text-anchor="middle">
+    <!-- ASCII Art for "Ankit Bharti" -->
+    <text x="50%" y="50" class="ascii" xml:space="preserve">    _          _    _ _     ____  _                _   _ </text>
+    <text x="50%" y="75" class="ascii" xml:space="preserve">   / \   _ __ | | _(_) |_  | __ )| |__   __ _ _ __| |_(_)</text>
+    <text x="50%" y="100" class="ascii" xml:space="preserve">  / _ \ | '_ \| |/ / | __| |  _ \| '_ \ / _` | '__| __| |</text>
+    <text x="50%" y="125" class="ascii" xml:space="preserve"> / ___ \| | | |   &lt;| | |_  | |_) | | | | (_| | |  | |_| |</text>
+    <text x="50%" y="150" class="ascii" xml:space="preserve">/_/   \_\_| |_|_|\_\_|\__| |____/|_| |_|\__,_|_|   \__|_|</text>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="50%" y="200" class="subtitle" xml:space="preserve">&gt; CS Student ⚡ Full-Stack Web Developer ⚡ Cybersecurity Enthusiast ⚡ AI Explorer &lt;</text>
+  </g>
+</svg>
